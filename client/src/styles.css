@@ -1,0 +1,36 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+
+.View, .Add, .Edit, .Delete, .Search, .rightArrow, .leftArrow{
+  height: 23px;
+  background-color: #181818;
+  border: none;
+  color: #de9f21;
+  margin-right: 4px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.name, .genre, .author, .description, .image{
+  margin: '10px 10px 10px 10px';
+  text-align: left;
+  
+}
+
+input::file-selector-button{
+  background-color: #36454f;
+  color: #fdff78;
+}
+
+dialog::backdrop{
+  background-color: black;
+  color: #e1eb23;
+}
+
+
+
+
+
+
